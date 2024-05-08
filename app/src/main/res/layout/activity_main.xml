@@ -1,0 +1,39 @@
+<!-- activity_main.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/sedan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sedan"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/moto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motorcycle"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/suv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUV"
+        android:layout_margin="10dp" />
+
+    <!-- TextView for UI judgment -->
+    <TextView
+        android:id="@+id/ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
